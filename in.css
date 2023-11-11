@@ -1,0 +1,266 @@
+
+
+
+.container {
+	display: inline-block;
+	margin: 15px;
+    background-color: #ffffff;
+    border-radius: 13px 13px 13px 13px;
+    padding-left: 13px;
+}
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(./fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(./fonts/AnonymousPro-Regular.ttf);
+}
+
+body{
+    background-color: #ffffff;
+}
+
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+}
+
+.container__image {
+	width: 370px;
+}
+
+
+
+h3 {
+width: 323px;
+height: 52px;
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 26px;
+color: #121723;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+p{
+width: 323px;
+font-family: 'Anonymous Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: #121723;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+td,th{
+    font-family: 'Anonymous Pro';
+    font-style: normal;
+}
+
+a{
+    width: 323px;
+    font-family: 'Anonymous Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+
+.ct{
+    margin: auto;
+}
+
+.logo{ 
+    width: 212.34px;
+    height: 63.24px;
+    left: 142.52px;
+    top: 30.18px;
+    }
+    
+    .header{
+        height: 80px;
+        background-color: #ffffff;
+        border-radius: 30px 30px 0px 0px ;
+        padding: 30px;
+        position: relative;
+        box-shadow: 0px 1px 0px #494e59;
+    }
+.hcon{
+    display: inline-block;
+    position: absolute;
+    right: 80;
+    top: 50%;
+    transform: translateY(-20%);  
+}
+.body1{
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+.hcon2{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-3%); 
+}
+
+.footer{
+    height: 80px;
+    background-color: #121723;
+    padding: 30px;
+    position: relative;
+}
+
+.logo2{
+    width: 299.65px;
+    height: 22.32px;
+    left: 0px;
+    top: 0px;
+}
+.fcon{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-99%); 
+}
+
+.fcon2{
+    color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    right: 80;
+    top: 50%;
+    transform: translateY(-70%);  
+}
+
+.txt{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    
+}
+
+hr {
+    border-color: #A1A6B4;
+    display: inline;
+    position: absolute;
+    width: 92%; 
+    height: 1;
+    left: 2%;
+    right: 98%;
+    top: 70%; 
+    transform: translateY(-20%); 
+}
+.p1{
+    display: inline;
+    color: #ffffff;
+}
+
+.footer2{
+    color: #A1A6B4;
+    height: 10px;
+    background-color: #121723;
+    padding: 30px;
+    position: relative;
+}
+
+.fcon3{
+    color: #A1A6B4;
+    display: inline-block;
+    left: 38%;
+    right: 62%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-90%); 
+    text-align: center;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none; 
+  }
+
+.container:hover{
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+  transform: scale(1.05);
+}
+.container{
+    transition-property: box-shadow, transform;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    transition: transform .2s ease-in-out;
+}
+
+.bodyy{
+
+    height: 1652px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    position: relative;
+}
+
+.container__imagee {
+	width: 1044px;
+    height: 600px;
+}
+
+.containere {
+	margin: 15px;
+    background-color: #ffffff;
+    border-radius: 50px 50px 50px 50px;
+    width: 1140;
+    height: 1588px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.p13{
+    width: auto;
+    font-family: 'Anonymous Pro';
+    font-style: normal;
+    font-weight: auto;
+    font-size: 48px;
+    line-height: 20px;
+    color: #121723;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    left: 20px;
+    margin: 50px;
+    }
+
+    .txt1{
+        display: inline-block;
+        margin: 15px;
+        width: 506px;
+    }
+    
+    .horizontal-line {
+        border-color: black;
+      }
